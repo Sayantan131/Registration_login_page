@@ -58,10 +58,60 @@ input[type="submit"] {
 }
 
 .container{
+   /* margin-left: 100px; */
     height: 10vh;
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: red;
+}
+
+.logo a{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+li > a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* home page styling */
+
+/* regidtration page styling */
+
+main{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration, .login{
+    min-height: 30rem;
+    min-width: 40vw;
+    background-color: aquamarine;
+}
+
+.grid-two--column{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.form-text{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
