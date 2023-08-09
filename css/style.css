@@ -189,3 +189,15 @@ input[type="submit"]{
     background-color: var(--var-primary-color);
     color: #fff;
 }
+
+.registration:not(.login-section--display){
+    display: none;
+}
+
+.login-section--display .registration{
+    display: block;
+}
+
+.login-section--display .login{
+    display: none;
+}
