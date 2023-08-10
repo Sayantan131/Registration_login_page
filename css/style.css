@@ -65,7 +65,7 @@ input[type="submit"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .logo a{
@@ -124,6 +124,13 @@ main{
     background-position: center;
     color: #fff;
     padding: 3rem 2rem;
+}
+.login .form-text{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)),
+    url(/images/login_image.jpg);
+    background-position: center;
+    background-size: cover;
+
 }
 
 .form-text p{
