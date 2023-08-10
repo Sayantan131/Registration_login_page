@@ -47,6 +47,8 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+
+
 /* now my registration page styling */
 
 .registration-header {
@@ -139,7 +141,8 @@ main{
     margin: 2rem 0 3rem 0;
 }
 
-.form-text button{
+.form-text 
+{
     background-color: #fff;
     color: #000;
 }
@@ -196,6 +199,25 @@ input[type="submit"]{
     background-color: var(--var-primary-color);
     color: #fff;
 }
+
+.para{
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+}
+
+.heading{
+    position: absolute;
+    top:20rem;
+    left: 69rem;
+}
+
+.btn1{
+    position: absolute;
+    top:27rem;
+    left: 69rem;
+}
+
 
 .registration:not(.login-section--display){
     display: none;
