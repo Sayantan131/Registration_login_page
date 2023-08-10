@@ -216,11 +216,33 @@ input[type="submit"]{
     position: absolute;
     top:27rem;
     left: 69rem;
+    
 }
+
+.btn1 button{
+    background-color: #414141;
+    color: white;
+    transition: all ease 0.5s;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+
+.btn1 button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 5px 10px #1f1f1f;
+    /* animation: btnHover all linear 0.5s; */
+    scale: 1.1;
+
+}
+
 
 
 .registration:not(.login-section--display){
     display: none;
+    
 }
 
 .login-section--display .registration{
