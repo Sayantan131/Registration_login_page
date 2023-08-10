@@ -86,6 +86,7 @@ ul{
 }
 
 li > a{
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
 }
@@ -105,7 +106,7 @@ main{
     min-height: 30rem;
     min-width: 40vw;
     /* margin: auto; */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .grid-two--column{
@@ -163,9 +164,9 @@ main{
     flex-direction: column;
 }
 
-.registration-form,.login-form p{
+/* .registration-form,.login-form p{
     margin: 1rem 0 .7rem 0;
-}
+} */
 
 .social-icons{
     display: flex;
