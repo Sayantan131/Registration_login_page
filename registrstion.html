@@ -42,7 +42,7 @@
                         <div class="form-text">
                             <h2>Welcome Back!</h2>
                             <p> To keep connected with us please login with your perosnal info</p>
-                            <button class="Login-btn">Login Here</button>
+                            <button class="login-btn" onclick="handleClickLog()">Login Here</button>
                         </div>
                         <div class="registration-form">
                             <h2>Create Account</h2>
@@ -87,7 +87,7 @@
                         <div class="form-text">
                             <h2>Hello, Friend!</h2>
                             <p> Enter your personal details and start journey with us</p>
-                            <button class="registration-btn">Register Here</button>
+                            <button class="registration-btn" onclick="handleClickReg()">Register Here</button>
                         </div>
                         <div class="login-form">
                             <h2>Sign In</h2>
@@ -131,9 +131,25 @@
     <script>
         const user_con =  document.querySelector('.user-container');
         const regis_btn =  document.querySelector('.registration-btn');
-        const login_btn =  document.querySelector('login-btn');
+        const login_btn =  document.querySelector('.login-btn');
 
-        regis_btn.addEventListener
+        const handleClickLog = ()=>{
+            if (user_con.classList.contains('login-section--display')) {
+            user_con.classList.remove('login-section--display');
+        } else {
+            user_con.classList.add('login-section--display');
+        }
+        }
+
+        const handleClickReg = ()=>{
+            if (user_con.classList.contains('login-section--display')) {
+                
+                user_con.classList.remove('login-section--display');
+            } else {
+                user_con.classList.add('login-section--display');
+        }
+        }
+
 
 
     </script>
